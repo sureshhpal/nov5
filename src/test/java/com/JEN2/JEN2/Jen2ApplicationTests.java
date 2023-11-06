@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Jen2ApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(Jen2ApplicationTests.class);
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		
 		logger.info("TETING STARTED ");
 		assertEquals(true, true);
