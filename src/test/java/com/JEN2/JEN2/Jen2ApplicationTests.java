@@ -13,9 +13,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Jen2ApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(Jen2ApplicationTests.class);
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		
-		logger.info("test case executed ");
+		logger.info("TETING STARTED ");
 		assertEquals(true, true);
 	}
 

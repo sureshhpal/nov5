@@ -15,13 +15,13 @@ public class Jen2Application {
 	@javax.annotation.PostConstruct
 	public void init()
 	{
-		logger.info("Application started");;
+		logger.info("APPLICATION STARTED ");;
 	}
 	
 	public static void main(String[] args) {
 		logger.info("Application Executed");;
 		SpringApplication.run(Jen2Application.class, args);
-		System.out.println("main function ");
+		System.out.println("MAIN FUNCITON STARTED");
 	}
 
 }
